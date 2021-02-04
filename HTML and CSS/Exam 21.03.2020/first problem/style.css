@@ -1,0 +1,73 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.fa-user,
+.fa-lock {
+        float: left;
+        margin-left: 20px;
+        margin-top: -39px;
+        position: relative;
+        z-index: 2;
+        color: grey;
+}
+
+body{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('image.jpg');
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    height: 600px;
+    width: 300px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+input{
+    display: inline-block;
+    margin-left: 60px;
+    height: 60px;
+    width: 70%;
+    font-size: 15px;
+    border:none;
+    border-bottom: 0.6px solid grey;
+    outline: none;
+}
+
+button{
+    height: 40px;
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: mediumvioletred;
+}
