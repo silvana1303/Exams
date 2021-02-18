@@ -1,0 +1,185 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif !important;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+    background-color: #D01919;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    padding-right: 50px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin-left: 15px;
+}
+
+.main{
+    height: 700px;
+    background-image: url('image/fitness-main.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main nav ul{
+    display: flex;
+    color: white;
+    float: right;
+    padding-top: 30px;
+}
+
+.main nav ul li{
+    margin: 0 40px;
+    font-weight: 700;
+}
+
+.main div{
+    position: relative;
+    top: 250px;
+    left: 500px;
+}
+
+.big-text{
+    font-family: 'PT Serif', serif;
+    position:absolute;
+    top: -60px;
+    left: -120px;
+    color: white;
+    font-size: 80px;
+    font-weight: 800;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+}
+
+.small-text{
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    top: 150px;
+    left: -100px;
+}
+
+.main button{
+    position: absolute;
+    top: 260px;
+    left: 180px;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #D01919;
+    height: 50px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.second ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.second ul li img{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.second-text{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.terms{
+    font-size: 20px;
+    font-weight: 700;
+    color:#D01919;
+    padding-bottom: 20px;
+}
+
+hr{
+    height: 3px;
+    background:#D01919;
+    width: 40px;
+    margin-top: 30px;
+    border: none;
+}
+
+.third{
+    background: #EFEFEF;
+}
+
+.third ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.third ul li img{
+    border-radius: 7px;
+}
+
+.names{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sport{
+    padding-top: 5px;
+    font-size: 18px;
+    color:#D01919;
+    padding-bottom: 20px;
+}
+
+.words{
+    color: #ABA0A8;
+    font-size: 14px;
+}
+
+footer{
+    background: #D01919;
+    height: 30px;
+    color: #5F1E1A;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+
+
+
+
