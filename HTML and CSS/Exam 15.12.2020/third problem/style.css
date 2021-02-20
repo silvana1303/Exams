@@ -1,0 +1,136 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+body{
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header ul{
+    display: flex;
+}
+
+.left{
+    align-items: baseline;
+}
+
+.header-li{
+    font-size: 40px;
+    font-weight: 600;
+    color: #2C383B;
+    border-right: 3px #ECECEC solid;
+    padding-right: 20px;
+}
+
+.header-li-second{
+    color: #646464;
+    padding-left: 20px;
+}
+
+.right li{
+    background-color: #ECECEC;
+    padding: 25px 35px;
+    margin: 0 1px;
+    color: #2C383B;
+}
+
+.banner{
+    background: url('banner.jpg');
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.red-div{
+    background: #E24E2A;
+    padding: 50px 60px;
+}
+
+.red-div p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 0.8cm;
+    color: #F4B793;
+    font-size: 14px;
+}
+
+.fontawesome ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background: #2C383B;
+
+}
+
+.fas{
+    color: white;
+    background:#E24E2A;
+    padding: 20px 25px;
+    font-size: 50px;
+}
+
+.white-header{
+    color: white;
+    padding: 20px 0 10px 0;
+}
+
+hr{
+    width: 250px;
+    background: white;
+}
+
+.bottom-text{
+    color: #646464;
+    width: 80%;
+    line-height: 0.7cm;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.button-div{
+    height: 200px;
+    margin: 70px auto;
+    text-align: center;
+
+}
+
+.text-heading{
+    font-size: 50px;
+    color:#646464;
+}
+
+.article{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #B1A5A2;
+}
+
+button{
+    font-size: 20px;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    background: #1B9772;
+}
+
+.second{
+    font-size: 30px;
+}
+
+footer{
+    background: #1B9772;
+    color: #44B198;
+    padding: 100px 400px;
+    text-align: center;
+    font-size: 15px;
+}
