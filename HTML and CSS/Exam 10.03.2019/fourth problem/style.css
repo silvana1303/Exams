@@ -1,0 +1,214 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/computer-main.jpg);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: contain;
+    background-size: cover;
+    height: 600px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+}
+
+header ul li{
+    display: flex;
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 1.5px black;
+}
+
+header ul li i{
+    margin-right: 5px;
+}
+
+header button{
+    margin: 70px 650px;
+    width: 130px;
+    padding: 10px 0;
+    font-size: 20px;
+    background: #00D08E;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    background:#B2F1DD;
+    color:#20252D;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer ul li{
+    text-align: center;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    margin: 50px auto;
+}
+
+.text{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.2;
+}
+
+.action{
+    margin-top: -50px;
+    margin-left: 430px;
+}
+
+.action p{
+    margin-right: 10px;
+}
+
+.tablet,
+.pen{
+    display: flex;
+}
+
+.tablet-title{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 30px 0px 20px 50px;
+    color: #20252D;
+}
+
+.tablet-text{
+    font-size: 25px;
+    margin: 10px 0px 50px 50px;
+    color: #20252D;
+    width: 80%;
+}
+
+.tablet img,
+.pen img{
+    width: 50%;
+} 
+
+.tablet ul li{
+    display: flex;
+    margin-left: 50px;
+}
+
+.tablet ul li i{
+    color:#00D08E;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size:large;
+}
+
+.tablet ul li p{
+    color: #20252D;
+    font-size: 18px;
+}
+
+.pen div{
+    width: 50%;
+}
+
+.pen-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #20252D;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.pen ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pen ul li img{
+    width: 100px;
+    height: 100px;
+}
+
+.pen ul li{
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.pen ul li p{
+    color:#00D08E;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 700;
+    color:#20252D;
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    width: 70%;
+    margin: 0 auto;
+    color:#20252D;
+}
+
+.footer-text-last{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-main{
+    font-size: 40px;
+    font-weight: 600;
+    color: #20252D;
+    text-align: center;
+    padding: 30px 0 50px 0;
+}
+
+.footer-ul {
+    padding-left: 80px;
+}
+
+.footer-ul-two{
+    padding-left: 90px;
+}
+
+.footer-footer{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+span{
+    font-weight: bold;
+}
