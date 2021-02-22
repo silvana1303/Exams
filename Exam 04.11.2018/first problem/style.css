@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #454545;
+}
+
+body{
+    width: 70%;
+    margin: 50px auto;
+}
+
+hr{
+    width: 95px;
+    height: 3px;
+    float: left;
+    background-color: #008CBA;
+    border: none;
+}
+
+.table{
+    display: flex;
+}
+
+.table ul{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.table li{
+    border-left: 2px solid #F6F6F6;
+    border-right: 2px solid #F6F6F6;
+    border-bottom: 2px dotted #F6F6F6;
+    text-align: center;
+    padding: 15px 55px;
+}
+
+.main{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.article{
+    clear: both;
+    margin: 15px 0;
+    font-size: 15px;
+    width: 90%;
+    line-height: 0.5cm;
+    font-weight: 400;
+}
+
+.title{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid #F6F6F6 !important;
+    font-size: 20px;
+    color: white;
+    background-color: #333333
+}
+
+.middle{  
+    background-color: #008CBA;
+}
+
+.fee{
+    font-size: 30px;
+    font-weight: 400s;
+    background-color: #F6F6F6;
+}
+
+.awesome{
+    font-size: 10px;
+    font-weight: 600;
+    color: #BCB9B9;
+    vertical-align: middle;
+    padding: 10px 40px;
+}
+
+.table button{
+    background-color: #008CBA;
+    font-size: 16px;
+    color: white;
+    border:none;
+    padding: 10px 30px;
+}
