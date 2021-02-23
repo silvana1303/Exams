@@ -1,0 +1,283 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    height: 40px;
+    width: 120px;
+    padding: 10px 0px 20px 100px;
+}
+
+header ul{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    color: #54546D;
+    padding: 10px 100px 20px 0;
+}
+
+header ul li{
+    margin-left: 10px;
+}
+
+.banner{
+    position: relative;
+    background: #54546D;
+    height: 300px;
+}
+
+.banner img{
+    padding-top: 50px;
+    margin-left: -70px;
+    overflow: hidden;
+}
+
+.banner p{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 70px;
+    left: 700px;
+}
+
+.table{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.first,
+.second,
+.third{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 20px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+    color: #54546D;
+}
+
+.second .text,
+.third .text{
+    margin: 20px 0;
+
+}
+
+.bottom{
+    padding-left: 10px;
+}
+
+.text{
+    color: #54546D;
+    text-align: center;
+}
+
+.first .text{
+    margin: 10px 0;
+
+}
+
+.first button{
+    margin-top: 50px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background: #9A5DC6;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0px 2px 0px 2px #E6E6E6;
+}
+
+.table-footer{
+    height: 80px;
+    width: 400px;
+    background: pink;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #CECECE;
+}
+
+.green{
+    background: #3AC870;
+}
+
+.green p
+{
+    margin-top: 10px;
+    color: white;
+}
+
+.blue {
+    background: #5680A7;
+}
+
+.purple {
+    background: #54546D;
+}
+
+.fee{
+    font-size: 19px;
+    margin-top: 10px;
+    color: white;
+}
+
+.fee-text{
+    margin-top: 10px;
+    font-size: 14px;
+    width: 90%;
+    color: white;
+}
+
+.online{
+    width: 80%;
+    margin: 200px auto;
+}
+
+.online div{
+    margin-top: 20px;
+}
+
+.online-title{
+    font-size: 25px;
+    color: #54546D;
+}
+
+.forms {
+    width: 80%;
+    font-size: 15px;
+    color:#54546D;
+    line-height: 1.2;
+}
+
+.list{
+    margin-top: 50px;
+}
+
+.line{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.line p{
+    font-size: 15px;
+    color: #6A6467;
+    margin-left: 10px;
+
+}
+
+.one {
+    margin-left: 40px;
+}
+
+.three{
+    margin-left: 65px;
+}
+
+.four{
+    margin-right: 50px;
+}
+
+.five{
+    margin-left: 85px;
+}
+
+.six{
+    margin-left: 15px;
+}
+
+.odd{
+    background: #E6E6E6;
+}
+
+.even{
+    background: #F8F8F8;
+}
+
+.sone,
+.stwo,
+.sthree,
+.sfour,
+.sfive,
+.ssix{
+    margin-right: 30px;
+}
+
+.text-1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.text-6{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fa-check{
+    color: #12A945;
+}
+
+.fa-times{
+    color: #FC4C50;
+}
+
+.last{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+.last-text{
+    margin: 20px 0;
+}
+
+footer{
+    background: #54546D;
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+    color:#7E84A5;
+}
+
+
