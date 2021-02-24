@@ -1,0 +1,291 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+html{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #4A4E52;
+}
+
+header hr{
+    background: #34B1C4;
+    height: 2px;
+    border: none;
+    margin-top: 4px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li {
+    margin-left: 40px;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.grey{
+    color: #454545;
+}
+
+.blue{
+    color: #21A2B5;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.sticky{
+    position: absolute;
+    top: 290px;
+    left: 180px;
+    font-size: 50px;
+    color: white;
+    background: RGBA(13,12,11,0.5);
+    padding: 20px;
+}
+
+.sticky p{
+    margin-bottom: 10px;
+}
+
+.sticky button{
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background: #008CBA;
+    padding: 10px 30px;
+}
+
+.services-title{
+    font-size: 30px;
+    color:#454545;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.services-text{
+    line-height: 1.2;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.services hr{
+    background: #34B1C4;
+    height: 2px;
+    width: 110px;
+    border: none;
+    margin-top: 4px;
+}
+
+.services button{
+    background: #454545;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 680px;
+}
+
+.table{
+    background: #EEF0F1;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.table-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.table-flex ul img{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table-flex-title{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.table-flex-text{
+    width: 400px;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.table button{
+    background: #454545;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 130px;
+}
+
+.table-flex ul{
+    margin-left: 40px;
+    margin-bottom: 30px;
+    background: white;
+    width: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.table-title{
+    text-align: center;
+    color: #454545;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.table hr{
+    background: #454545;
+    height: 3px;
+    width: 110px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+
+.subscribe{
+    background: #393F43;
+    margin-top: -20px;
+}
+
+.subscribe-title{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.subscribe hr{
+    background: white;
+    height: 3px;
+    width: 110px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.subscribe-text{
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.subscribe ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.subscribe input{
+    width: 400px;
+    height: 30px;
+    background: #545A5E;
+    color: grey;
+    border: none;
+    font-style: italic;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.subscribe button{
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    background: #6BBFFF;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-footer{
+    background: #2F3539;
+    padding: 10px 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto;
+    color: white;
+    background: #2F3539;
+}
+
+.media{
+    display: flex;
+}
+
+.footer-title{
+    margin-bottom: 20px;
+}
+
+.sofia{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.services,
+.faq,
+.about,
+.home,
+.contact,
+.call,
+.write,
+.mail,
+.phone{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.media li{
+    margin-left: 5px;
+
+}
+
+.media{
+    margin-top: 10px;
+}
+
+footer{
+    background: #262B2F;
+    color: white;
+    height: 50px;
+    text-align:justify;
+}
+
+footer p{
+    padding-top: 30px;
+    text-align: center;
+}
