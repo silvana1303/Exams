@@ -1,0 +1,53 @@
+@media (max-width: 768px){
+
+    header h2{
+        width: 70px;
+        font-size:small;
+    }
+
+
+    .main-movie{
+    display: flex;
+    justify-content: center;
+}
+    .main-movie ul{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    
+}
+
+    .main-movie-poster img{
+    display: none;
+}
+
+    .main-movie ul li{
+    padding: 0;
+}
+
+    .main-movie-trailer iframe{
+        width: 600px;
+        object-fit: contain;
+    }
+
+
+}
+
+@media (max-width: 414px){
+
+
+    .movies{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .movie-list{
+        display: block;
+        margin-left: 50px;
+    }
+
+    footer{
+        margin-left: 150px;
+    }
+
+}
