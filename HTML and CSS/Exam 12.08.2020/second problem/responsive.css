@@ -1,0 +1,40 @@
+/* TODO: Add media queries */
+@media (max-width: 600px){
+
+   .thumbnails{
+       display: block;
+   }
+
+   .thumbnails a{
+       max-width: 400px;
+   }
+
+   .thumbnails div{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+   }
+
+   .thumbnails div img{
+       max-width: 400px;
+       height: 200px;
+
+   }
+
+   .thumbnails > div > :last-child {
+    margin-bottom: 2em;
+  }
+
+  .icons{
+      display: flex;
+      justify-content: center;
+  }
+
+}
+
+
+
+
+    
