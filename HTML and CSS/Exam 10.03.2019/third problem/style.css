@@ -1,0 +1,95 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px; 
+    background-color: #EBF0F0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr{
+    margin: 0;
+    width: 500px;
+    height: 5px;
+    border: none;
+    background-color: #007ACC;
+    margin-bottom: 2em;
+}
+
+h1{
+    margin: 0;
+    font-size: 3em;
+    color: #454646;
+}
+
+div{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+div i{
+    position: absolute;
+    left: 10px;
+    vertical-align: middle;
+    color: #454646;
+    border-right: 1px solid #454646;
+    padding-right: 10px;
+
+}
+
+label {
+    display: block;
+    color: grey;
+    width: 500px;
+    text-align: left;
+    padding: 10px 0;
+    margin-right: 5px;
+}
+
+input{
+    width: 480px;
+    height: 30px;
+    border: 1px solid #007ACC;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    padding-left: 40px;
+}
+
+.phone i{
+    padding-right: 15px;
+}
+
+button{
+    color: white;
+    font-size: 1.5em;
+    background-color: #007ACC;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 1em;
+}
+
+.required::before{
+    color: red;
+    content: '* ';
+}
+
+span{
+    font-size: 10px;
+}
